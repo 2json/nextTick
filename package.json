@@ -6,7 +6,8 @@
   "author": "zhaosaisai <zhaosaisai@weidian.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node ./build/umd.js"
+    "build": "node ./build/umd.js",
+    "test": "node test/index.js"
   },
   "devDependencies": {
     "rollup": "0.50.0",

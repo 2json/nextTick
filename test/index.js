@@ -8,4 +8,4 @@ nextTick(() => {
 
 nextTick(null, this).then(ctx => assert(ctx === this))
 
-num++ 
+num++
